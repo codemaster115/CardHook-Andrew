@@ -1,0 +1,164 @@
+.FixedBar-Container {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.FixedBar {
+  width: 30%;
+  background-color: #f59042;
+  -webkit-box-shadow: 10px 10px 120px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 10px 10px 120px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 10px 10px 120px 0px rgba(0, 0, 0, 0.46);
+}
+
+.LogoLabel {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 30px;
+  color: #ffffff;
+  text-shadow: 4px 3px 0px #7a7a7a;
+}
+
+.SearchLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchBoxContainer {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.SearchInput {
+  padding: 10px;
+  width: 180px;
+  border-radius: 10px;
+  border-color: #fff;
+  font-size: 14px;
+}
+.RecipeItem-Container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.RecipeList {
+  padding-top: 100px;
+  background-color: #fff;
+}
+
+.CardContainer {
+  border-width: 1;
+  margin: 20px;
+  width: 500px;
+  -webkit-box-shadow: 7px 11px 58px 3px rgba(77, 77, 77, 0.22);
+  -moz-box-shadow: 7px 11px 58px 3px rgba(77, 77, 77, 0.22);
+  box-shadow: 7px 11px 58px 3px rgba(77, 77, 77, 0.22);
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.CardImageWrapper {
+  display: flex;
+  background-color: #f59042;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.CardTitle {
+  text-align: center;
+  font-size: 25px;
+  color: #f542ce;
+  font-weight: bold;
+  padding: 40px 20px 10px 10px;
+}
+
+.CardSubTitle {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: green;
+  font-style: italic;
+}
+
+.IngredientBox {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: blue;
+}
+
+.ThumbnailContainer {
+  width: 160px;
+  height: 160px;
+  border-radius: 160px;
+  background-color: gray;
+}
+@media (max-width: 769px) {
+  .FixedBar {
+    width: 100%;
+    height: 160px;
+  }
+  .RecipeList {
+    padding-top: 180px;
+  }
+  .RecipeItem-Container {
+    width: 100%;
+  }
+
+  .SearchLayout {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 520px) {
+  .SearchLayout {
+    flex-direction: column;
+  }
+
+  .RecipeList {
+    padding-top: 230px;
+  }
+
+  .FixedBar {
+    height: 220px;
+  }
+}
+
+@media (max-width: 414px) {
+  .CardContainer {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .RecipeList {
+    padding-top: 230px;
+  }
+
+  .CardTitle {
+    font-size: 20px;
+  }
+  .CardSubTitle {
+    font-size: 18px;
+  }
+  .IngredientBox {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 302px) {
+  .FixedBar {
+    height: 260px;
+  }
+
+  .RecipeList {
+    padding-top: 280px;
+  }
+}
