@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and developed by [Andrew Zhang](https://www.linkedin.com/in/react-frontend/)
+
+### My Note
+
+When i tested api request, it shows cors error from backend. For the reason i coudn not access to the server side, i decided to install `Moesif CORS` chrome extension into my chrome browser, and it worked. So i recommend you to install this if you have the same problem when you test my work. :)
 
 ## Available Scripts
 
